@@ -1,0 +1,88 @@
+﻿@page "/purchase"
+
+@using static IMS.WebApp.Controls.Common.AutoCompleteComponent;
+@inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
+@inject IViewInventoryByIdUseCase ViewInventoryByIdUseCase
+@inject IPurechaseInventoryUseCase PurechaseInventoryUseCase
+
+@inject IJSRuntime JSRuntime
+
+
+<h3>Purchase Inventory</h3>
+
+<br/>
+<EditForm id="purchase-form" Model="purechaseViewModel" OnValidSubmit="Purchase">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+
+    <div class="form-group">
+        <label for="po"> Purchase Order #</label>
+        <InputText id="po" @bind-Value="purechaseViewModel.PONumber" class="form-control"></InputText>
+    </div>
+    <br />
+    <div class="card">
+        <div class="card-body">
+            <div class="form-group">
+                <AutoCompleteComponent Label="Inventory to Purchase"
+                                       SearchFunction="SearchInventory"
+                                       OnItemSeleted="OnItemSeleted">
+                </AutoCompleteComponent>
+                @if(purechaseViewModel.InventoryId > 0 && purechaseViewModel.InventoryPrice >= 0)
+                {
+                    <text>Price:</text>
+                    @purechaseViewModel.InventoryPrice.ToString("c");
+                }
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="form-group">
+        <label for="qty"> Quantity Order #</label>
+        <InputNumber id="qty" @bind-Value="purechaseViewModel.QuantityToPurchase" class="form-control"></InputNumber>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Purchase</button>
+</EditForm>
+
+@code {
+    private Inventory? selectedInventory = null;
+    private PurechaseViewModel purechaseViewModel = new PurechaseViewModel();
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+
+        if (firstRender)
+        {
+            JSRuntime.InvokeVoidAsync("PreventFormSubmittion", "purchase-form");
+        }
+    }
+
+    private async Task Purchase()
+    {   
+
+        await PurechaseInventoryUseCase.ExecuteAsync(
+             this.purechaseViewModel.PONumber, 
+             this.selectedInventory,
+             this.purechaseViewModel.QuantityToPurchase,
+             "Paul");
+        this.purechaseViewModel = new PurechaseViewModel();
+        this.selectedInventory = null; 
+    }   
+    public async Task<List<ItemViewModel>>? SearchInventory(string name)
+    {
+        var list = await ViewInventoriesByNameUseCase.ExecuteAsync(name);
+        if (list == null) return null;
+
+        return list.Select(x => new ItemViewModel { Id = x.InventoryId, Name = x.IventoryName })?.ToList();
+    }
+
+    private async Task OnItemSeleted(ItemViewModel item)
+    {
+
+        this.selectedInventory = await ViewInventoryByIdUseCase.ExecuteAsync(item.Id);
+        purechaseViewModel.InventoryId = item.Id;
+        purechaseViewModel.InventoryPrice = this.selectedInventory.Price;
+
+    }
+}
