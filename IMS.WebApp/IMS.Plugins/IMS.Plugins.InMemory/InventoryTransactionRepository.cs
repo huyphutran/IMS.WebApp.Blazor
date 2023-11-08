@@ -20,7 +20,7 @@ namespace IMS.Plugins.InMemory
         }
 
         public async Task<IEnumerable<InventoryTransaction>> GetInventoryTransactionAsync(string inventoryName, DateTime? dateFrom, DateTime? dateTo, InventoryTransactionType? transactionType)
-        {
+         {
             var inventories = (await inventoryRepository.GetInventoriesByNameAsync(string.Empty)).ToList();
             var query = from it in this._inventoryTransactions
                         join inv in inventories on it.InventoryId equals inv.InventoryId
@@ -35,6 +35,7 @@ namespace IMS.Plugins.InMemory
                             Inventory = inv,
                             InventoryTransactionId = it.InventoryTransactionId,
                             PONumber = it.PONumber,
+                            ProductionNumber = it.ProductionNumber,
                             InventoryId = it.InventoryId,
                             QuantityBefore = it.QuantityBefore,
                             ActivityType = it.ActivityType,

@@ -1,0 +1,17 @@
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\bin\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.deps.json
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\bin\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.runtimeconfig.json
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\bin\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\bin\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.pdb
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\bin\Debug\net6.0\IMS.CoreBusiness.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\bin\Debug\net6.0\IMS.CoreBusiness.pdb
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.csproj.AssemblyReference.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.AssemblyInfoInputs.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.AssemblyInfo.cs
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.csproj.CoreCompileInputs.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.csproj.CopyComplete
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\refint\IMS.Plugins.EFCoreSqlServer.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.pdb
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\IMS.Plugins.EFCoreSqlServer.genruntimeconfig.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.Plugins.EFCoreSql\obj\Debug\net6.0\ref\IMS.Plugins.EFCoreSqlServer.dll

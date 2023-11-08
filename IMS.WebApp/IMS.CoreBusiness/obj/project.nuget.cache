@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kwLQyoawpDLGavasRfvj5rQgt7A4Quhnk7j0kpVyW84KaZ6/wMHKLjRHupDBZaGbI5GRDaWwej/7jAqpbRtbKg==",
+  "dgSpecHash": "Hiu3kmOo3shErkSw/tBpyaVDYwUpWjLk/dVMikUKL7nZwkUyZega7PvOjvYyCuft57Dun0FK50KODTEZf29Wiw==",
   "success": true,
-  "projectFilePath": "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
+  "projectFilePath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phutr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\phutr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

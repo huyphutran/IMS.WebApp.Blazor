@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K9cLkHXgNlxrizOvsx0Qpb4qomeD+YII8yf2TGzsukg=",
+  "Hash": "QbTN8VST+6ouDhSFNFuP60OBDFC9ETp53IsDmHEwYng=",
   "Source": "IMS.WebApp",
   "BasePath": "_content/IMS.WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "IMS.WebApp\\wwwroot",
       "Source": "IMS.WebApp",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IMS.WebApp.styles.css",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IMS.WebApp.styles.css",
       "SourceId": "IMS.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "IMS.WebApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IMS.WebApp.styles.css"
+      "OriginalItemSpec": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\IMS.WebApp.styles.css"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IMS.WebApp.bundle.scp.css",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IMS.WebApp.bundle.scp.css",
       "SourceId": "IMS.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "IMS.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IMS.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IMS.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\site.css",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\favicon.ico",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\favicon.ico",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\JSInterOp.js",
+      "Identity": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\JSInterOp.js",
       "SourceId": "IMS.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
+      "ContentRoot": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\wwwroot\\",
       "BasePath": "_content/IMS.WebApp",
       "RelativePath": "JSInterOp.js",
       "AssetKind": "All",

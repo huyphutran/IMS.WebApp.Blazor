@@ -10,3 +10,15 @@ E:\BlazorApp\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\refint\IMS.CoreBusines
 E:\BlazorApp\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.pdb
 E:\BlazorApp\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\ref\IMS.CoreBusiness.dll
 E:\BlazorApp\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.csproj.AssemblyReference.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\bin\Debug\net6.0\IMS.CoreBusiness.deps.json
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\bin\Debug\net6.0\IMS.CoreBusiness.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\bin\Debug\net6.0\IMS.CoreBusiness.pdb
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.csproj.AssemblyReference.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.AssemblyInfoInputs.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.AssemblyInfo.cs
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.csproj.CoreCompileInputs.cache
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\refint\IMS.CoreBusiness.dll
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\IMS.CoreBusiness.pdb
+E:\BlazorApp\IMS.WebApp.Blazor\IMS.WebApp\IMS.CoreBusiness\obj\Debug\net6.0\ref\IMS.CoreBusiness.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MaDTFwtlTKNcSyLaBgchv1I6xf5t3cmGVh/JnJbBNzNnhTu3euxEJv0pO2bKFZ7GaLCEsoHCUQLmYLz+a72AvA==",
+  "dgSpecHash": "qEkek2qGL3Fty1GVaphZjgK2Ri9/55L94Qh1W/RkpltukX1yL+xftXKtP1WaRGuxUkupzfWVTt4Kd1y48G921Q==",
   "success": true,
-  "projectFilePath": "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
+  "projectFilePath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phutr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\phutr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

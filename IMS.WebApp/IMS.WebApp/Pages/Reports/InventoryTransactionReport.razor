@@ -1,10 +1,12 @@
 ﻿@page "/inventoriesreport"
 
 @inject ISearchInventoryTransactionUseCase SearchInventoryTransactionUseCase
+@inject IJSRuntime JSRuntime
 
 <h3>Inventory Transaction</h3>
 
 <br/>
+<div id="printarea">
 <div class="row">
     <div class="col">
         <label for="inv" >Inventory Name</label>
@@ -47,6 +49,7 @@
                 <th>Quantity Before</th>
                 <th>Quantity After</th>
                 <th>PO#</th>
+                <th>Unit Price</th>
                 <th>Production#</th>
             </tr>
         </thead>
@@ -68,13 +71,17 @@
                 </td>
                <td> @it.QuantityBefore </td>
                <td> @it.QuantityAfter </td>
+               <td> @it.PONumber </td>
+               <td> @it.UnitPrice.ToString("c") </td>
                <td>@it.ProductionNumber</td>
-
            </tr> 
         }
     </tbody>
     </table>
 }
+</div>
+
+
 
 @code {
     public string invName = string.Empty;
@@ -95,7 +102,7 @@
     }
     private void PrintReport()
     {
-            
+        JSRuntime.InvokeVoidAsync("print");
     }
 }
 

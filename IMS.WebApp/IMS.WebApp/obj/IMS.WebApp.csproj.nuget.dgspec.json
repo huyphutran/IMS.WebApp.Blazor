@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj": {}
+    "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj": {}
   },
   "projects": {
-    "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+    "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
+        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
         "projectName": "IMS.CoreBusiness",
-        "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
+        "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
         "packagesPath": "C:\\Users\\phutr\\.nuget\\packages\\",
-        "outputPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\obj\\",
+        "outputPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phutr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,91 @@
         }
       }
     },
-    "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+    "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins.EFCoreSql\\IMS.Plugins.EFCoreSqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
+        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins.EFCoreSql\\IMS.Plugins.EFCoreSqlServer.csproj",
+        "projectName": "IMS.Plugins.EFCoreSqlServer",
+        "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins.EFCoreSql\\IMS.Plugins.EFCoreSqlServer.csproj",
+        "packagesPath": "C:\\Users\\phutr\\.nuget\\packages\\",
+        "outputPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins.EFCoreSql\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phutr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+                "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
         "projectName": "IMS.Plugins.InMemory",
-        "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
+        "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
         "packagesPath": "C:\\Users\\phutr\\.nuget\\packages\\",
-        "outputPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\obj\\",
+        "outputPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phutr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +166,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
-                "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj"
+              "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
+                "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj"
               }
             }
           }
@@ -124,14 +201,14 @@
         }
       }
     },
-    "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
+    "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
+        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
         "projectName": "IMS.UseCases",
-        "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
+        "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
         "packagesPath": "C:\\Users\\phutr\\.nuget\\packages\\",
-        "outputPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\obj\\",
+        "outputPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phutr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,8 +225,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
-                "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+              "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+                "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
               }
             }
           }
@@ -183,14 +260,14 @@
         }
       }
     },
-    "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj": {
+    "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj",
+        "projectUniqueName": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj",
         "projectName": "IMS.WebApp",
-        "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj",
+        "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\IMS.WebApp.csproj",
         "packagesPath": "C:\\Users\\phutr\\.nuget\\packages\\",
-        "outputPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.WebApp\\obj\\",
+        "outputPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phutr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,11 +284,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
-                "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj"
+              "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins.EFCoreSql\\IMS.Plugins.EFCoreSqlServer.csproj": {
+                "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins.EFCoreSql\\IMS.Plugins.EFCoreSqlServer.csproj"
               },
-              "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
-                "projectPath": "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj"
+              "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+                "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj"
+              },
+              "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
+                "projectPath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj"
               }
             }
           }
@@ -225,6 +305,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

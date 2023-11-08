@@ -65,7 +65,7 @@
     private async Task OnItemSeleted(ItemViewModel item)
     {
         this.selectedProduct = await ViewProductByIdUseCase.ExecuteAsync(item.Id);
-        sellViewModel.ProductId = item.Id;
+        this.sellViewModel.ProductId = item.Id;
         this.sellViewModel.Product = this.selectedProduct;
         this.sellViewModel.UnitPrice = this.selectedProduct.Price;
     }

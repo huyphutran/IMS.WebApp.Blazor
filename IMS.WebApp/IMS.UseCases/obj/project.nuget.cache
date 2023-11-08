@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vLBeShkArZrT+DBzEv4/LTHGdngbSntxhfMCkhb/BGr35+EHxB+mR97yEWb+0LaF+G/UIdQr8+QPBw0OaK2asA==",
+  "dgSpecHash": "GrxwALol7NYd8G46TuFt/k0breCEZ/oxpxvoRIYviMqy6NkecwGCkwwU3nkcD3T4F5Ys4N3kn9OTOD9tuL7+Xg==",
   "success": true,
-  "projectFilePath": "E:\\BlazorApp\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
+  "projectFilePath": "E:\\BlazorApp\\IMS.WebApp.Blazor\\IMS.WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phutr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\phutr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
